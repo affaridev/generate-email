@@ -80,7 +80,7 @@ If you have an issue where the last person on the list doesn't get generated, op
 
 # Adding Signature to gmail
 - Open the html file in a web browser.
-- Use your mouse (or use command/ctrl + a) to select/highlight the entire thing.
+- Use your mouse (or use command/ctrl + a) to select/highlight the entire signature.
 - Once selected/highlighted right click and copy (or use command/ctrl + c).
 - In your email settings, find the options for "Signature".
     In Gmail: Click the gear icon (settings) > Click "See all settings" > Click "General Tab" > scroll down until you see "Signature" > In the box right click     and paste (or command/ctrl + v) your new email signature > Scroll down and click "Save Changes"
