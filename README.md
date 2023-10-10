@@ -59,4 +59,10 @@ echo $BASH_VERSION
 ```
 If you have an issue where the last person on the list doesn't get generated, open up the 'people_list_to_generate.txt' file with your code editor, and make sure there is an empty line at the end of the file.
 
-
+# If this is all too much trouble and you would rather just edit some html files, then feel free to do that with the code editor.  Just duplicate the template.html file and search for these placeholders to edit them.
+```
+NAME_PLACEHOLDER
+EMAIL_PLACEHOLDER
+O_NUM_PH
+COMPANY_JOBTITLE
+```
