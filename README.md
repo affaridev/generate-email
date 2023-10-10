@@ -1,4 +1,4 @@
-# generate email script
+# Email Signatures
 
 # METHOD 1 - Code editor (easy method, but less automated)
 You'll need a code editor to edit the html file since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
