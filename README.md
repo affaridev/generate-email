@@ -37,7 +37,7 @@ cd ~/Downloads/[NAME_OF_THE_DIRECTORY]
 ```
 
 
-# Edit the script files
+# Edit file
 You'll need a code editor to edit script files since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
 https://www.sublimetext.com
 This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.  
@@ -46,4 +46,8 @@ Now that you have a code editor installed, right click the file called 'people_l
 ```
 _TEST USER;Company + Job Title;123-456-7890;Email Address;
 ```
-
+Now replace each line with a different persons information.  Once that is done, save the file and go back to the Terminal app.  Paste this command into the Terminal
+```
+bash _do_all_sigs.bash
+```
+If all went well, you should have several HTML files in the directory called 'sigs'
