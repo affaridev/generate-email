@@ -1,5 +1,22 @@
 # generate email script
 
+# METHOD 1 - Code editor (easy method, but less automated)
+You'll need a code editor to edit the html file since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
+https://www.sublimetext.com
+This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.  
+
+Duplicate the template.html file for as many users that you have, and search for these placeholders and replace them with those users.
+```
+NAME_PLACEHOLDER
+EMAIL_PLACEHOLDER
+O_NUM_PH
+COMPANY_JOBTITLE
+```
+
+-----------
+
+# METHOD 2 - (difficult setup, but more automated)
+
 # Requirements
 ```
 MacOS
@@ -59,14 +76,4 @@ echo $BASH_VERSION
 ```
 If you have an issue where the last person on the list doesn't get generated, open up the 'people_list_to_generate.txt' file with your code editor, and make sure there is an empty line at the end of the file.
 
-------------
 
-# Alternative setup free method!
-
-If this is all too much trouble and you would rather just edit some html files, then feel free to do that with the code editor.  Just duplicate the template.html file for as many users that you have, and search for these placeholders and replace them.
-```
-NAME_PLACEHOLDER
-EMAIL_PLACEHOLDER
-O_NUM_PH
-COMPANY_JOBTITLE
-```
