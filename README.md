@@ -51,3 +51,12 @@ Now replace each line with a different persons information.  Once that is done, 
 bash _do_all_sigs.bash
 ```
 If all went well, you should have several HTML files in the directory called 'sigs'
+
+## Troubleshooting
+If you get an error while running the bash command, send us the error, and the version of bash that you do have installed with:
+```
+echo $BASH_VERSION
+```
+
+
+
