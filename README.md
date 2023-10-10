@@ -78,4 +78,9 @@ echo $BASH_VERSION
 ```
 If you have an issue where the last person on the list doesn't get generated, open up the 'people_list_to_generate.txt' file with your code editor, and make sure there is an empty line at the end of the file.
 
-
+# Adding Signature to gmail
+ADDING SIGNATURE TO EMAIL
+5. Once the email signature is displayed in your browser, use your mouse (or use command/ctrl + a) to select/highlight the entire thing.
+6. Once selected/highlighted right click and copy (or use command/ctrl + c).
+7. In your email settings, find the options for "Signature".
+    In Gmail: Click the gear icon (settings) > Click "See all settings" > Click "General Tab" > scroll down until you see "Signature" > In the box right click and paste (or command/ctrl + v) your new email signature > Scroll down and click "Save Changes"
