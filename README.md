@@ -57,7 +57,6 @@ cd ~/Downloads/[NAME_OF_THE_DIRECTORY]
 # Edit file
 You'll need a code editor to edit script files since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
 https://www.sublimetext.com
-This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.  
 
 Now that you have a code editor installed, right click the file called 'people_list_to_generate.txt' and open that with your code editor.  At the top of this file is a placeholder line, showing the exact format of each employee you will add below.  So copy that first line as many times as you need for each employee.  You will notice that each field is separated by a ';'.  
 ```
