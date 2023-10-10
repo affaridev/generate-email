@@ -13,11 +13,13 @@ Lets see if bash is installed.  Type this into your Terminal app.  If it shows y
 echo $BASH_VERSION
 ```
 
-If bash isn't installed, you should be able to install it with brew.  But you'll need to first install brew.  Here are the details on that, if this 1 command doesn't work.
-https://brew.sh
+If bash isn't installed, you should be able to install it with brew.  But you'll need to first install brew.  
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+Here are the details on that, if this 1 command doesn't work.
+https://brew.sh
+
 
 Install bash
 ```
