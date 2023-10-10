@@ -31,7 +31,7 @@ If the directory name IS 'affari_buildingmd-email-sig' then use the Terminal to 
 ```
 cd ~/Downloads/affari_buildingmd-email-sig/
 ```
-IF affari_buildingmd-email-sig is NOT the name of that directory, then you will need to use this command and replace [NAME_OF_THE_DIRECTORY] with the directory name.
+If affari_buildingmd-email-sig is NOT the name of that directory, then you will need to use this command and replace [NAME_OF_THE_DIRECTORY] with the directory name.
 ```
 cd ~/Downloads/[NAME_OF_THE_DIRECTORY]
 ```
@@ -57,6 +57,6 @@ If you get an error while running the bash command, send us the error, and the v
 ```
 echo $BASH_VERSION
 ```
-
+If you have an issue where the last person on the list doesn't get generated, open up the 'people_list_to_generate.txt' file with your code editor, and make sure there is an empty line at the end of the file.
 
 
