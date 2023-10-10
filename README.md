@@ -1,6 +1,8 @@
 # Email Signatures
 
-# METHOD 1 - Code editor (easy method, but less automated)
+# METHOD 1 - Code editor 
+## easy method, but less automated
+
 You'll need a code editor to edit the html file since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
 https://www.sublimetext.com
 This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.  
@@ -15,7 +17,8 @@ COMPANY_JOBTITLE
 
 -----------
 
-# METHOD 2 - (difficult setup, but more automated)
+# METHOD 2 - automated script
+## difficult setup, but more automated
 
 # Requirements
 ```
