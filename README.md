@@ -7,7 +7,7 @@ bash
 Terminal skills
 ```
 
-# Install bash
+# bash
 Lets see if bash is installed.  Type this into your Terminal app.  If it shows you a version in the output, then you have bash installed.
 ```
 echo $BASH_VERSION
@@ -27,13 +27,23 @@ brew install bash
 ```
 
 Using Finder (file manager) app, copy the directory containing the email script into your Downloads folder.
-Use the Terminal to find that script with this command:
+If the directory name IS 'affari_buildingmd-email-sig' then use the Terminal to find that script with this command:
+```
+cd ~/Downloads/affari_buildingmd-email-sig/
+```
+IF affari_buildingmd-email-sig is NOT the name of that directory, then you will need to use this command and replace [NAME_OF_THE_DIRECTORY] with the directory name.
 ```
 cd ~/Downloads/[NAME_OF_THE_DIRECTORY]
 ```
 
+
 # Edit the script files
 You'll need a code editor to edit script files since using a basic text editor could introduce unwanted formatting into the code.  I would recommend using Sublime, but any code editor will do.
 https://www.sublimetext.com
-This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.
+This is a free version, so it will ask you to upgrade once in a while.  You can just click cancel and continue using Sublime.  
+
+Now that you have a code editor installed, right click the file called 'people_list_to_generate.txt' and open that with your code editor.  At the top of this file is a placeholder line, showing the exact format of each employee you will add below.  So copy that first line as many times as you need for each employee.  You will notice that each field is separated by a ';'.  
+```
+_TEST USER;Company + Job Title;123-456-7890;Email Address;
+```
 
