@@ -61,7 +61,9 @@ If you have an issue where the last person on the list doesn't get generated, op
 
 ------------
 
-## If this is all too much trouble and you would rather just edit some html files, then feel free to do that with the code editor.  Just duplicate the template.html file and search for these placeholders to edit them.
+# Alternative setup free method!
+
+If this is all too much trouble and you would rather just edit some html files, then feel free to do that with the code editor.  Just duplicate the template.html file for as many users that you have, and search for these placeholders and replace them.
 ```
 NAME_PLACEHOLDER
 EMAIL_PLACEHOLDER
